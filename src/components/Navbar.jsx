@@ -23,6 +23,8 @@ const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  /* ${mobile({ display: "hidden" })} */
+
 `;
 
 const Language = styled.span`
@@ -38,6 +40,7 @@ const SearchContainer = styled.div`
   margin-left: 25px;
   padding: 5px;
   ${mobile({ marginLeft: "10px" })}
+  ${mobile({ display: "none" })}
 `;
 
 const Input = styled.input`
